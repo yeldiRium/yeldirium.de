@@ -13,7 +13,7 @@ timezone: Europe/Berlin
 
 # URL
 ## https://hexo.io/docs/configuration#URL
-url: http://localhost:8080
+url: https://yeldirium.de
 root: /
 permalink: :year/:month/:day/:title/
 pretty_urls:
