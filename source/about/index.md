@@ -16,10 +16,10 @@ title: About
     <div class="work-item__description">
       <ul>
         <li><a href="https://github.com/thenativeweb/wolkenkit/" target="_blank" rel="noopener">Wolkenkit Open Source Development</a></li>
-        <li>TypeScript Development</li>
-        <li>Systems Architecture</li>
+        <li>TypeScript & Go Development</li>
+        <li>Distributed Systems Architecture</li>
         <li>CI/CD</li>
-        <li>React/Next.js Development</li>
+        <li>Frontend Development using React</li>
         <li>Planning and Giving Workshops & Developer Coaching</li>
       </ul>
     </div>
@@ -110,11 +110,13 @@ My native language is **german**. I am also fluent and confident in **english**.
 
 ## Backend
 
-I am most experienced in **JavaScript** and **TypeScript** and work with both daily. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**. Unfortunately I also have a lot of experience with **PHP** and **TYPO3**.
+I am most experienced in **JavaScript** and **TypeScript** and work with both daily. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**. I also have professional experience in **Go**.
+
+Due to my degree in computer science I have a good grasp on the theoretical concepts of **data structures and algorithms** and thanks to my curiosity and practical approach during my studies I am confident in implementing any of them.
 
 I have theoretical and professional experience in **database optimization** for **relational databases**, as well as experience in working with **MySQL**, **MariaDB**, **MongoDB**, **PostgreSQL**, **SQLite** and **Minio**.
 
-I have some knowledge of, but no professional experience with, **Rust**, **Haskell**, **Elixir**, **Go** and **Python**.
+I have some knowledge of, but no professional experience with, **Rust**, **Haskell**, **Elixir** and **Python**.
 
 As any hobby developer I have way more experience writing **Shell** scripts than I would like and have quite a bit of experience in administrating **GNU/Linux** servers and developer machines.
 </section>
@@ -126,7 +128,7 @@ Since these are the most fundamental building blocks of the frontend, I have yea
 
 After several larger projects I have good experience with **React** and **Redux** for web applications, using **SCSS** or **Styled Components** for design. Additionally, I am proficient with **Next.js** and **Webpack** for project setup, bundle building and page size optimization.
 
-I also have some experience with **Vue.js**.
+I also have some experience with **Svelte**.
 </section>
 <section class="about__section about__certifications clearfix-before">
 
@@ -134,11 +136,23 @@ I also have some experience with **Vue.js**.
 
 - [Professional Scrum Master](https://www.scrum.org/user/465695)
 </section>
+<section class="about__section about__trivia">
+
+## Trivia
+
+I enjoy optimizing my workspace a lot. Therefor I maintain my own [keyboard layout](https://github.com/yeldirium/qmk-neo2) and use a non-standard ErgoDox EZ mechanical keyboard.
+
+I prefer working on linux machines and currently use the operating system **Manjaro** with a thoroughly customized i3.
+
+To ensure the safety of my private data, I operate a NAS and because of this I have a lot of experience in managing **backups**.
+</section>
 <section class="about__section about__devops clearfix-before">
 
 ## DevOps
 
 I am proficient with **Docker** and **Docker Compose**, as well as in general **Continuous Integration** and **Continuous Development** techniques. I routinely set up quality assurance and build pipelines in integrated environments such as **GitHub** or **GitLab** or with dedicated tools like **Jenkins** or **DroneCI**.
+
+I have worked with cloud service providers, including **AWS**.
 
 I have professional experience in managing **Kubernetes** clusters with various integrations, such as **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
 
@@ -148,5 +162,5 @@ I am proficient in and a strong advocate for **JSONSchema** as well as **OpenAPI
 
 ## Application Administration
 
-From some technical lead work and private projects I have experience in administrating and interactivng with several applications that are commonly used in development and ops, such as **Jira**, **Nexus3 OSS**, **DokuWiki**, **GitHub**, **GitLab**, **Gitea**, **Docker Hub**, **CircleCI** and **Jenkins**.
+From some technical lead work and private projects I have experience in administrating and interacting with several applications that are commonly used in development and ops, such as **Jira**, **Nexus3 OSS**, **DokuWiki**, **GitHub**, **GitLab**, **Gitea**, **Docker Hub**, **CircleCI** and **Jenkins**.
 </section>
