@@ -6,6 +6,10 @@ excerpt: Hannes Leutloff - software developer, sometimes writer.
 
 ## Hannes Leutloff
 
-software developer
+software developer & architect
 
-sometimes writer
+implementer of algorithms
+structurer of data
+solver of problems
+
+i'm at home in the cloud
