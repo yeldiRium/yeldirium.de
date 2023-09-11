@@ -8,10 +8,24 @@ title: About
 ## Work Experience
 
   <div class="work-item">
+    <h3>Landwirtschaftliche Rentenbank</h3>
+    <span class="work-item__title">Entwickler</span>
+    <div class="work-item__timespan">
+      Since <time class="work-item__from" datetime="2023-09-01">01.09.2023</time>
+    </div>
+    <div class="work-item__description">
+      <ul>
+        <li>Cloud Transformation</li>
+        <li>Managing requirements for compliance, information security and data protection</li>
+        <li>Juggling Bureaucracy</li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-item">
     <h3>the native web GmbH</h3>
     <span class="work-item__title">Software Engineer & Architect</span>
     <div class="work-item__timespan">
-      Since <time class="work-item__from" datetime="2019-08-01">01.08.2019</time>
+      <time class="work-item__from" datetime="2019-08-01">01.08.2019</time> - <time class="work-item__to" datetime="2023-08-31">31.08.2023</time>
     </div>
     <div class="work-item__description">
       <ul>
