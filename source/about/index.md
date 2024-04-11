@@ -15,7 +15,8 @@ title: About
     </div>
     <div class="work-item__description">
       <ul>
-        <li>Cloud Transformation</li>
+        <li>IT Project Management</li>
+        <li>Cloud Transformation & IT Architecture</li>
         <li>Managing requirements for compliance, information security and data protection</li>
         <li>Juggling Bureaucracy</li>
       </ul>
