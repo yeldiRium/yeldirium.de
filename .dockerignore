@@ -1,11 +1,13 @@
-.git
-public
-node_modules
-**/node_modules
+.devbox/
+.git/
+.github/
+public/
+node_modules/
+**/node_modules/
 
-_config.dev.yml
 .dockerignore
-.drone.yml
 .gitignore
+.releaserc.json
+devbox.json
 Dockerfile
-db.json
+Dockerfile-dev

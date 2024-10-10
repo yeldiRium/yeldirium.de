@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": [],
+  "shell": {
+    "scripts": {
+      "build": [
+        "docker build --tag yeldirs-blog:latest --file Dockerfile-dev ."
+      ],
+      "build:production": ["docker build --tag yeldirs-blog:latest --file Dockerfile ."],
+      "run": ["docker run --publish 4000:80 yeldirs-blog:latest"]
+    }
+  }
+}
