@@ -9,7 +9,7 @@ title: About
 
   <div class="work-item">
     <h3>Landwirtschaftliche Rentenbank</h3>
-    <span class="work-item__title">Entwickler</span>
+    <span class="work-item__title">IT Project Manager</span>
     <div class="work-item__timespan">
       Since <time class="work-item__from" datetime="2023-09-01">01.09.2023</time>
     </div>
@@ -18,7 +18,6 @@ title: About
         <li>IT Project Management</li>
         <li>Cloud Transformation & IT Architecture</li>
         <li>Managing requirements for compliance, information security and data protection</li>
-        <li>Juggling Bureaucracy</li>
       </ul>
     </div>
   </div>
