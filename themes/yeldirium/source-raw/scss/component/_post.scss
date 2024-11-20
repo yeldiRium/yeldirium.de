@@ -18,6 +18,10 @@
     text-align: justify;
   }
 
+  &__content &__footnotes p {
+    text-align: left;
+  }
+
   &__navigation {
     &-list {
       display: grid;
