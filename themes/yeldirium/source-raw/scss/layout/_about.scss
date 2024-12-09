@@ -1,3 +1,11 @@
+.about__section {
+  &.about__certifications {
+    ul {
+      @include list;
+    }
+  }
+}
+
 @media only screen and (min-width: $xl-min-width) {
   .about__section {
     float: left;

@@ -89,6 +89,7 @@ title: About
   <div class="education-item">
     <h3>B. Sc. Computer Science</h3>
     <span class="education-item__institute">Goethe University Frankfurt am Main</span>
+    <div class="education-item__grade">Final grade: 1.3</div>
     <div class="education-item__description"><a href="https://github.com/yeldiRium/uimadatabase" rel="noopener">Work publicly available</a></div>
     <div class="education-item__timespan">
       <time class="education-item__from" datetime="2014">2014</time> - <time class="education-item__to" datetime="2018">2018</time>
@@ -97,12 +98,26 @@ title: About
   <div class="education-item">
     <h3>Abitur</h3>
     <span class="education-item__institute">Kopernikusschule Freigericht</span>
+    <div class="education-item__grade">Final grade: 1.6</div>
     <div class="education-item__timespan">
       <time class="education-item__from" datetime="2005">2005</time> - <time class="education-item__to" datetime="2014">2014</time>
     </div>
   </div>
 </section>
-<section class="about__section about__politics clearfix-before">
+<section class="about__section about__language">
+
+## Language
+
+My native language is **german**. I am also fluent and confident in **english**.
+</section>
+<section class="about__section about__certifications">
+
+## Certifications
+
+- [Professional Scrum Master](https://www.scrum.org/user/465695)
+- PRINCE2 Foundation
+</section>
+<section class="about__section about__politics">
 
 ## Politics
 
@@ -114,17 +129,25 @@ title: About
     </div>
   </div>
 </section>
-<section class="about__section about__language">
+<section class="about__section about__trivia">
 
-## Language
+## Trivia
 
-My native language is **german**. I am also fluent and confident in **english**.
+I enjoy optimizing my workspace a lot. Therefor I maintain my own [keyboard layout](https://github.com/yeldirium/qmk-neo2) and use a non-standard ErgoDox EZ mechanical keyboard.
+
+Over the years I have tried various IDEs. Currently my preferred working environment is **NeoVim**.
+
+I prefer working on linux machines and currently use the operating system **NixOS** with a thoroughly customized Hyprland.
+
+To ensure the safety of my private data, I operate a NAS and because of this I have a lot of experience in managing **backups**.
 </section>
 <section class="about__section about__backend clearfix-before">
 
 ## Backend
 
-I am most experienced in **JavaScript** and **TypeScript** and work with both daily. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**. I also have professional experience in **Go**.
+My preferred programming language for backend applications is **GoLang** and I have a deep understanding and experience with many of its features like its concurrency model and type system.
+
+I am most experienced in **JavaScript** and **TypeScript**. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**.
 
 Due to my degree in computer science I have a good grasp on the theoretical concepts of **data structures and algorithms** and thanks to my curiosity and practical approach during my studies I am confident in implementing any of them.
 
@@ -134,33 +157,7 @@ I have some knowledge of, but no professional experience with, **Rust**, **Haske
 
 As any hobby developer I have way more experience writing **Shell** scripts than I would like and have quite a bit of experience in administrating **GNU/Linux** servers and developer machines.
 </section>
-<section class="about__section about__frontend">
-
-## Frontend
-
-Since these are the most fundamental building blocks of the frontend, I have years of experience using **HTML5** and **CSS3**, including common strategies to improve **accessibility**.
-
-After several larger projects I have good experience with **React** and **Redux** for web applications, using **SCSS** or **Styled Components** for design. Additionally, I am proficient with **Next.js** and **Webpack** for project setup, bundle building and page size optimization.
-
-I also have some experience with **Svelte**.
-</section>
-<section class="about__section about__certifications clearfix-before">
-
-## Certifications
-
-- [Professional Scrum Master](https://www.scrum.org/user/465695)
-</section>
-<section class="about__section about__trivia">
-
-## Trivia
-
-I enjoy optimizing my workspace a lot. Therefor I maintain my own [keyboard layout](https://github.com/yeldirium/qmk-neo2) and use a non-standard ErgoDox EZ mechanical keyboard.
-
-I prefer working on linux machines and currently use the operating system **Manjaro** with a thoroughly customized i3.
-
-To ensure the safety of my private data, I operate a NAS and because of this I have a lot of experience in managing **backups**.
-</section>
-<section class="about__section about__devops clearfix-before">
+<section class="about__section about__devops">
 
 ## DevOps
 
@@ -170,11 +167,23 @@ I have worked with cloud service providers, including **AWS**.
 
 I have professional experience in managing **Kubernetes** clusters with various integrations, such as **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
 
+I have implemented applications and libraries that trace requests through distributed systems using **OpenTelemetry** and visualized these traces using **Jaeger**.
+
 I am proficient in and a strong advocate for **JSONSchema** as well as **OpenAPI3** for API standardization and data validation.
+</section>
+<section class="about__section about__frontend clearfix-before">
+
+## Frontend
+
+Since these are the most fundamental building blocks of the frontend, I have years of experience using **HTML5** and **CSS3**, including common strategies to improve **accessibility**.
+
+After several larger projects I have good experience with **React** and **Redux** for web applications, using **SCSS** or **Styled Components** for design. Additionally, I am proficient with **Next.js**, **Webpack** and **ESBuild** for project setup, bundle building and page size optimization.
+
+I also have some experience with **Svelte**.
 </section>
 <section class="about__section about__administration">
 
 ## Application Administration
 
-From some technical lead work and private projects I have experience in administrating and interacting with several applications that are commonly used in development and ops, such as **Jira**, **Nexus3 OSS**, **DokuWiki**, **GitHub**, **GitLab**, **Gitea**, **Docker Hub**, **CircleCI** and **Jenkins**.
+From some technical lead work and private projects I have experience in administrating and interacting with several applications that are commonly used in development and ops, such as **Nextcloud**, **Jira**, **Nexus3 OSS**, **DokuWiki**, **GitHub**, **GitLab**, **Gitea**, **Docker Hub**, **CircleCI** and **Jenkins**.
 </section>
