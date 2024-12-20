@@ -11,7 +11,7 @@ title: About
     <h3>Landwirtschaftliche Rentenbank</h3>
     <span class="work-item__title">IT Project Manager</span>
     <div class="work-item__timespan">
-      Since <time class="work-item__from" datetime="2023-09-01">01.09.2023</time>
+      <time class="work-item__from" datetime="2023-09-01">01.09.2023</time> - <time class="work-item__to" datetime="2024-12-31">31.12.2024</time>
     </div>
     <div class="work-item__description">
       <ul>
