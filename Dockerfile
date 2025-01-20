@@ -28,7 +28,14 @@ RUN npx hexo generate
 # Build minimal Apache image
 FROM httpd:2.4.62
 
+# Install the OpenTelemetry httpd instrumentation. See https://github.com/open-telemetry/opentelemetry-cpp-contrib/tree/main/instrumentation/httpd
+ADD https://github.com/open-telemetry/opentelemetry-cpp-contrib/releases/download/httpd%2Fv0.1.0/ubuntu-20.04_mod-otel.so.zip /tmp
+RUN mv /tmp/ubuntu-20.04_mod-otel.so.zip /usr/local/apache2/modules/mod_otel.so.gz
+RUN gzip -d /usr/local/apache2/modules/mod_otel.so.gz
+
+ADD apache/opentelemetry.conf /usr/local/apache2/conf/extra/
 ADD apache/httpd.conf /usr/local/apache2/conf/httpd.conf
+
 COPY --from=builder /build/public /usr/local/apache2/htdocs
 ADD apache/.htaccess /usr/local/apache2/htdocs/.htaccess
 ADD static/* /usr/local/apache2/htdocs/
