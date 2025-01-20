@@ -1,4 +1,4 @@
-FROM node:12.13.0-alpine as builder
+FROM node:12.13.0-alpine AS builder
 
 # Build Theme
 WORKDIR /build/themes/yeldirium
