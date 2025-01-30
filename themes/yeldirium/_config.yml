@@ -29,9 +29,6 @@ menu:
     enabled: true
 
 footer:
-  - name: imprint
-    path: /meta/imprint.html
-    enabled: true
   - name: privacy-policy
     path: /meta/privacy-policy.html
     enabled: true

@@ -107,7 +107,6 @@ jsonContent:
       - 404.html
       - archive/
       - blog/
-      - meta/imprint.html
       - meta/privacy-policy.html
 ## https://github.com/hexojs/hexo-generator-feed
 feed:
