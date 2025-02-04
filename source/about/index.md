@@ -8,6 +8,19 @@ title: About
 ## Work Experience
 
   <div class="work-item">
+    <h3>CGI</h3>
+    <span class="work-item__title">Senior Consultant</span>
+    <div class="work-item__timespan">
+      Since <time class="work-item__from" datetime="2025-02-01">01.02.2025</time>
+    </div>
+    <div class="work-item__description">
+      <ul>
+        <li>Backend Development in GoLang</li>
+        <li>Cloud Native Technologies</li>
+      </ul>
+    </div>
+  </div>
+  <div class="work-item">
     <h3>Landwirtschaftliche Rentenbank</h3>
     <span class="work-item__title">IT Project Manager</span>
     <div class="work-item__timespan">
