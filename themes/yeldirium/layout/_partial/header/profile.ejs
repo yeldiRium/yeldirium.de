@@ -3,7 +3,7 @@
   <a class="profile__avatar" href="<%= url_for(config.root) %>" tabindex="-1">
     <img
       class="profile__avatar__image"
-      src="<%= ( profile.gravatar ? gravatar(profile.gravatar, 128) : url_for(profile.avatar)) %>"
+      src="<%= url_for(profile.avatar) %>"
       alt="<%= __('profile.avatar_alt_text') %>"
       width="20"
       height="20"

@@ -55,8 +55,7 @@ site:
       alwayShow: true
 
 profile:
-  gravatar:
-  avatar: /assets/images/hannes-leutloff-2022-128x128.png
+  avatar: /assets/images/hannes-leutloff-2024-128x128.png
   author: Hannes Leutloff
   author_title: Software Engineer
   location: Frankfurt am Main, Germany
