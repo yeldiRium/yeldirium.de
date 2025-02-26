@@ -17,6 +17,8 @@ title: About
       <ul>
         <li>Backend Development in GoLang</li>
         <li>Cloud Native Technologies</li>
+        <li>Kubernetes and Crossplane</li>
+        <li>AWS</li>
       </ul>
     </div>
   </div>
@@ -135,6 +137,13 @@ My native language is **german**. I am also fluent and confident in **english**.
 ## Politics
 
   <div class="about__politics-item">
+    <h3>Die Linke</h3>
+    <span class="about__politics-item-position">Member</span>
+    <div class="about__politics-item-timespan">
+      Since <time class="about__politics-item-from" datetime="2025-02-20">20.02.2025</time>
+    </div>
+  </div>
+  <div class="about__politics-item">
     <h3>Die GRÜNEN</h3>
     <span class="about__politics-item-position">Ortsvorstand Neu-Isenburg</span>
     <div class="about__politics-item-timespan">
@@ -146,11 +155,11 @@ My native language is **german**. I am also fluent and confident in **english**.
 
 ## Trivia
 
-I enjoy optimizing my workspace a lot. Therefor I maintain my own [keyboard layout](https://github.com/yeldirium/qmk-neo2) and use a non-standard ErgoDox EZ mechanical keyboard.
+I enjoy optimizing my workspace a lot. Therefor I have designed my own keyboard layout in two variants for the [Ergodox EZ](https://github.com/yeldiRium/qmk-ergodox-ez-neo2) and the [Corne Keyboard](https://github.com/yeldiRium/qmk-crkbd-neo2).
 
-Over the years I have tried various IDEs. Currently my preferred working environment is **NeoVim**.
+Over the years I have tried various IDEs. Currently my preferred working environment is [**NeoVim**](https://github.com/yeldiRium/nix-config/tree/main/modules/home-manager/yeldirs/cli/essentials/neovim).
 
-I prefer working on linux machines and currently use the operating system **NixOS** with a thoroughly customized Hyprland.
+I prefer working on linux machines and currently use the operating system [**NixOS** with a thoroughly customized Hyprland](https://github.com/yeldiRium/nix-config).
 
 To ensure the safety of my private data, I operate a NAS and because of this I have a lot of experience in managing **backups**.
 </section>
@@ -178,7 +187,7 @@ I am proficient with **Docker** and **Docker Compose**, as well as in general **
 
 I have worked with cloud service providers, including **AWS**.
 
-I have professional experience in managing **Kubernetes** clusters with various integrations, such as **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
+I have professional experience in managing **Kubernetes** clusters with various integrations, such as **Crossplane**, **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
 
 I have implemented applications and libraries that trace requests through distributed systems using **OpenTelemetry** and visualized these traces using **Jaeger**.
 
