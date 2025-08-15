@@ -9,16 +9,17 @@ title: About
 
   <div class="work-item">
     <h3>CGI</h3>
-    <span class="work-item__title">Senior Consultant</span>
+    <span class="work-item__title">Senior Business Consultant / Techlead Platform Engineering</span>
     <div class="work-item__timespan">
       Since <time class="work-item__from" datetime="2025-02-01">01.02.2025</time>
     </div>
     <div class="work-item__description">
       <ul>
+        <li>Techlead of a Platform Engineering Development Team</li>
         <li>Backend Development in GoLang</li>
         <li>Cloud Native Technologies</li>
         <li>Kubernetes and Crossplane</li>
-        <li>AWS</li>
+        <li>AWS (IAM, EKS, EC2, S3, VPC, and many more)</li>
       </ul>
     </div>
   </div>
@@ -169,7 +170,8 @@ To ensure the safety of my private data, I operate a NAS and because of this I h
 
 My preferred programming language for backend applications is **GoLang** and I have a deep understanding and experience with many of its features like its concurrency model and type system.
 
-I am most experienced in **JavaScript** and **TypeScript**. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**.
+I am experienced in **JavaScript** and **TypeScript**. In their context I am used to many widely used libraries and frameworks, such as **express.js** and **telegraf**.
+I have deep knowledge of their distinguishing features, mainly the Node.js Event Loop and Promises, as well as TypeScripts Type System and have written Blog Posts about it before.
 
 Due to my degree in computer science I have a good grasp on the theoretical concepts of **data structures and algorithms** and thanks to my curiosity and practical approach during my studies I am confident in implementing any of them.
 
@@ -177,17 +179,21 @@ I have theoretical and professional experience in **database optimization** for 
 
 I have some knowledge of, but no professional experience with, **Rust**, **Haskell**, **Elixir** and **Python**.
 
-As any hobby developer I have way more experience writing **Shell** scripts than I would like and have quite a bit of experience in administrating **GNU/Linux** servers and developer machines.
+As any hobby developer I have way more experience writing **Bash** scripts than I would like and have quite a bit of experience in administrating **GNU/Linux** servers and developer machines.
 </section>
 <section class="about__section about__devops">
 
 ## DevOps
 
-I am proficient with **Docker** and **Docker Compose**, as well as in general **Continuous Integration** and **Continuous Development** techniques. I routinely set up quality assurance and build pipelines in integrated environments such as **GitHub** or **GitLab** or with dedicated tools like **Jenkins** or **DroneCI**.
+I am proficient with **Docker** and **OCI Images and Containern**, as well as general **Continuous Integration** and **Continuous Development** techniques.
+I routinely set up quality assurance and build pipelines in integrated environments such as **GitHub**, **GitLab** or **Gitea** or with dedicated tools like **Jenkins** or **DroneCI**.
+
+I am proficient in using various infrastructure provisioning Tools and a strong proponent of **Infrastructure as Code**, as well as **GitOps**.
 
 I have worked with cloud service providers, including **AWS**.
 
-I have professional experience in managing **Kubernetes** clusters with various integrations, such as **Crossplane**, **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
+I have professional experience in administrating **Kubernetes** clusters with various integrations, such as **Crossplane**, **Prometheus** for **monitoring**, the **ELK** stack for **logging** and **Velero** for **backups**.
+I have also administrated and used application provisioning and CI/CD tools like **ArgoCD** and **Flux**.
 
 I have implemented applications and libraries that trace requests through distributed systems using **OpenTelemetry** and visualized these traces using **Jaeger**.
 
