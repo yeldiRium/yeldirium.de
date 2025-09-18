@@ -11,7 +11,7 @@ category:
   - GoLang
 ---
 The GoLang error model is in my opinion one of the best around. Returning errors is a vast improvement over throwing errors. I won't go into detail on that, since there are much better write ups about that out there (e.g. [The Error Model by Joe Duffy](https://joeduffyblog.com/2016/02/07/the-error-model/)).
-There are two main concepts out there when working with errors in Go: [[GoLang Sentinel Errors|Sentinel Errors]] and [[GoLang Error Wrapping|Error Wrapping]]. There are various blog posts on the two topics, even a few by the [language mantainers themselves](https://go.dev/blog/go1.13-errors). A very short overview:
+There are two main concepts out there when working with errors in Go: Sentinel Errors and Error Wrapping. There are various blog posts on the two topics, even a few by the [language mantainers themselves](https://go.dev/blog/go1.13-errors). A very short overview:
 
 - Sentinel Errors are predefined errors that are exported by packages. These error values allow inspecting the returned errors from functions and reacting appropriately to specific kinds of errors.
 - Error wrapping adds context to received errors and makes tracing errors sources much easier.
